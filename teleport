@@ -1,0 +1,38 @@
+#!/usr/bin/env python
+import argparse
+import event_handler as event
+
+# function to parse arguments
+def handle_args():
+	parser = argparse.ArgumentParser()
+	subparsers = parser.add_subparsers(help="subparser")
+
+	# to list
+	parser.add_argument("-l","--list",action='store_true')
+
+	# to navigate
+	navigator = subparsers.add_parser('navigate',help="navigate")
+	navigator.set_defaults(which='navigator')
+	navigator.add_argument("alias",help="alias name for location",action="store")
+	navigator.add_argument("-t","--terminal",help="To show on terminal",action='store_true')
+
+	# to create or edit
+	add_or_edit = subparsers.add_parser('create', help="add_or_edit")
+	add_or_edit.set_defaults(which='add_or_edit')
+	add_or_edit.add_argument("alias",help="alias name for new location",action="store")
+	add_or_edit.add_argument("location",help="location to assign alias",action="store")
+
+
+	# to delete
+	delete = subparsers.add_parser('delete',help='delete')
+	delete.set_defaults(which='delete')
+	delete.add_argument("alias",help="alias name for location",action="store")
+	
+
+	args = parser.parse_args()
+	
+	event.understand_args(args)	
+
+
+if __name__ == '__main__':
+	handle_args()
