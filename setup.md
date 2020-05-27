@@ -4,7 +4,7 @@ YOU can try the file as a regular python file or even make it a permanent shell 
 	git clone
 
 2. Then go to your home directory and create the ~/bin directory
-	$ mkdir -p ~/bin
+	'''$ mkdir -p ~/bin'''
 
 3. Copy all the contents of this repo into this directory via terminal using the cp command
 
