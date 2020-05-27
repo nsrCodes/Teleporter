@@ -2,8 +2,10 @@ Use one of the following commands:
 
 # Navigate to alias
 *open directory with file explorer* 
+	
 	teleporter navigate [alias_name]	
 *open a new terminal session at that particular location*
+	
 	teleporter navigate [alias_name] -t
 	teleporter navigate [alias_name] --terminal
 
