@@ -16,7 +16,7 @@ Using teleporter ypu can set aliases for different locations on your system. And
 ![](images/before.png)
 
 # To this
-![](images/before.png)
+![](images/after.png)
 
 
 *So ya I am Happy*
