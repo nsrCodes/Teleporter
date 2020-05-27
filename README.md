@@ -8,6 +8,12 @@ And not just through the terminal, its sometime even hard to find the desired fo
 
 There are shell commands like $alias to get by this but I wanted a more daily approach. And this project helped me from changing 
 
+#It got me form this
 
 ![](images/before.png)
+
+#To this
 ![](images/before.png)
+
+
+*So ya I am Happy*
