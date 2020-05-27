@@ -1,4 +1,4 @@
-!(){images/logo.png}
+![](images/logo.png)
 
 This is terminal tool made completely using python.
 
@@ -9,5 +9,5 @@ And not just through the terminal, its sometime even hard to find the desired fo
 There are shell commands like $alias to get by this but I wanted a more daily approach. And this project helped me from changing 
 
 
-!(){images/before.png}
-!(){images/before.png}
+![](images/before.png)
+![](images/before.png)
