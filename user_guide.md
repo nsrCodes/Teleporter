@@ -18,6 +18,7 @@ Use one of the following commands:
 # Delete an alias
 	teleporter [delete] [alias_name]	
 	
-You Do can use smart type by using '.' to specify the current directory or even create aliases for subdirectories for ur current alias location in the following manner
-		teleporter create [alias_name] ./subdir/anything
-		teleporter create [alias_name] .									   
+You can use smart typing by using '.' to specify the current directory or even create aliases for subdirectories for ur current alias location in the following manner
+
+	teleporter create [alias_name] ./subdir/anything
+	teleporter create [alias_name] .									   
