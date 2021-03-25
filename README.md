@@ -1,3 +1,7 @@
+## No Longer being maintained
+This project was a prototype and a better version is being maintained at https://github.com/nsrCodes/cdd. If you are interested, do check that out. \
+Hence this project is now archived because it does not make sense to make two projects that do the same thing.
+
 ![](images/logo.png)
 
 # Amazing Terminal tool for easy navigations thorugh your directories
